@@ -35,163 +35,321 @@ I established the core infrastructure for the lab environment within the Microso
 
 **Step 1: I opened the Resource Manager in the Azure Portal to view my existing resource groups.
 <br>
+<img width="1366" height="768" alt="Step 1  Resource Group Manager Portal" src="https://github.com/user-attachments/assets/c072ace4-753c-479b-80cc-a4b65a8aa158" />
+>
+<br>
 
 **Step 2: I navigated to the Create a resource group screen.
+<br>
+<img width="1366" height="768" alt="Step 2  Resource Group Creation Portal" src="https://github.com/user-attachments/assets/d255649a-78ae-4216-b0b8-93e3177198b5" />
+>
 <br>
 
 **Step 3: I selected East Asia as the region and named the new resource group ADLab.
 <br>
+<img width="1366" height="768" alt="Step 3  Resource Group Creation Portal - Selecting East Asia Zone   Naming it ADLab" src="https://github.com/user-attachments/assets/c95b35fa-e95e-4e1a-bbf7-9a683110b39f" />
+>
+<br>
 
 **Step 4: I reviewed the configuration to confirm the name ADLab and the East Asia region.
+<br>
+<img width="1366" height="768" alt="Step 4  Confirmation of East Asia Zone   ADLab name of Resouce Group" src="https://github.com/user-attachments/assets/24022d28-54e0-466c-a869-9908207fa402" />
+>
 <br>
 
 **Step 5: I verified that the ADLab resource group was successfully created.
 <br>
+<img width="1366" height="768" alt="Step 5   Resource Group ADLab Succesfully Created" src="https://github.com/user-attachments/assets/62219955-776c-44c2-ac95-53084197141b" />
+>
+<br>
 
 **Step 6: I navigated to the Virtual Network creation portal.
+<br>
+<img width="1366" height="768" alt="Step 6  Virtual Network Creation Portal" src="https://github.com/user-attachments/assets/f94a86ab-2f62-43fe-958a-e02a738a63d8" />
+>
 <br>
 
 **Step 7: I selected the ADLab resource group to associate the new network.
 <br>
+<img width="1366" height="768" alt="Step 7  Adding  Virtual Network to ADLab Resource Group" src="https://github.com/user-attachments/assets/040c8f64-0a8e-427e-ade0-ad0c96aac532" />
+>
+<br>
 
 **Step 8: I named the virtual network ADVNET and ensured it was assigned to the East Asia region.
+<br>
+<img width="1366" height="768" alt="Step 8  Naming Virtual Network ADVNET   adding it to East Asia Zone" src="https://github.com/user-attachments/assets/9abfd678-6c25-473a-b811-efc69e6e6d83" />
+>
 <br>
 
 **Step 9: I reviewed the settings and initiated the creation of ADVNET.
 <br>
+<img width="1366" height="768" alt="Step 9  Creating Virtual Newtwork ADVNET" src="https://github.com/user-attachments/assets/3595ff2e-f7ce-4f45-b06c-e650377fd06f" />
+>
+<br>
 
 **Step 10: I confirmed that the virtual network ADVNET was successfully created.
+<br>
+<img width="1366" height="768" alt="Step 10  Succefully Created Virtual Network ADVNET" src="https://github.com/user-attachments/assets/f6f9d15c-4743-4411-8660-3fa54dece8ba" />
+>
 <br>
 
 **Step 11: I accessed the Virtual Machine creation portal.
 <br>
+<img width="1366" height="768" alt="Step 11  Virtual Machine Creation Portal" src="https://github.com/user-attachments/assets/8ce62b90-9966-447b-a853-92676ea958d2" />
+>
+<br>
 
 **Step 12: I began the configuration process for my first virtual machine.
+<br>
+<img width="1366" height="768" alt="Step 12  Virtual Machine Creation Portal" src="https://github.com/user-attachments/assets/9c3ed475-0b89-4405-8869-f85936635f2b" />
+>
 <br>
 
 **Step 13: I continued through the Virtual Machine deployment wizard.
 <br>
+<img width="1366" height="768" alt="Step 13  Virtual Machine Creation Portal" src="https://github.com/user-attachments/assets/4e331d4a-a9ac-4a1b-80e3-c66b4d794514" />
+>
+<br>
 
 **Step 14: I set the Resource Group to ADLab, the region to East Asia, and named the VM Domain-Controller.
+<br>
+<img width="1366" height="768" alt="Step 14  Selecting ADLab as resource group, East Asia as zone and naming Domain Controller for Windows VM" src="https://github.com/user-attachments/assets/bddefe72-0e8e-453e-83ca-7c2f4a35c792" />
+>
 <br>
 
 **Step 15: I selected the Windows Server 2022 image and the appropriate instance size.
 <br>
+<img width="1366" height="768" alt="Step 15  Selecting Image   Size for Windows VM" src="https://github.com/user-attachments/assets/94332136-cc19-400a-8162-1217c9060c30" />
+>
+<br>
 
-**Step 16: I defined the administrative Username and Password for the VM.
+**Step 16: I defined the administrative Username and Password for the Domain Controller VM.
+<br>
+<img width="1030" height="1280" alt="Step 16  Username   Passowrd for Windows VM" src="https://github.com/user-attachments/assets/7fd3d024-f207-4d79-adb6-6f39dca380cf" />
+>
 <br>
 
 **Step 17: I input and confirmed the secure credentials for the Domain-Controller.
 <br>
+<img width="1366" height="768" alt="Step 17  Inputting Username   Password for Windows VM" src="https://github.com/user-attachments/assets/1fa48548-b7e3-49d6-b846-1d6c50866874" />
+>
+<br>
 
 **Step 18: I selected ADVNET as the Virtual Network for the Domain-Controller.
+<br>
+<img width="1366" height="768" alt="Step 18  Selecting ADVNET as Network for Windows VM" src="https://github.com/user-attachments/assets/fbfe6fad-3789-4e16-93b2-c09274813c09" />
+>
 <br>
 
 **Step 19: I completed the validation check to ensure the Domain-Controller was ready for deployment.
 <br>
+<img width="1366" height="768" alt="Step 19  Validation for Windows VM for creation" src="https://github.com/user-attachments/assets/c12f4cba-86f7-44d1-bcaa-011f3df57c01" />
+>
+<br>
 
 **Step 20: I confirmed that the Domain-Controller virtual machine was successfully created.
+<br>
+<img width="1366" height="768" alt="Step 20  Domain Controller Windows VM Created" src="https://github.com/user-attachments/assets/37441618-f27b-486f-a2f5-0168fc52267b" />
+>
 <br>
 
 **Step 21: I accessed the Virtual Machine creation portal to deploy my second VM.
 <br>
+<img width="1366" height="768" alt="Step 21  Virtual Machine Creation Portal for Client - 1 VM" src="https://github.com/user-attachments/assets/cf17bdca-4654-42f1-82c9-1e1ba09362fb" />
+>
+<br>
 
 **Step 22: I set the Resource Group to ADLab, the region to East Asia, and named the VM Client-1.
+<br>
+<img width="1366" height="768" alt="Step 22  Selecting ADLab as resource group, East Asia as zone and naming Client - 1 for 2nd Windows VM" src="https://github.com/user-attachments/assets/4c045d9d-cae1-4df0-8ad1-5197cbd13960" />
+>
 <br>
 
 **Step 23: I selected the Windows 11 Pro image and appropriate size for the client workstation.
 <br>
+<img width="1366" height="768" alt="Step 23  Selecting Image   Size for 2nd Windows VM" src="https://github.com/user-attachments/assets/bb4f2a8c-1d5e-4c57-bb87-1c2384695cf6" />
+>
+<br>
 
 **Step 24: I defined the administrative Username and Password for the Client-1 VM.
+<br>
+<img width="995" height="1600" alt="Step 24  Username   Passowrd for 2nd Windows VM" src="https://github.com/user-attachments/assets/b6a22f0e-f848-43da-84ce-5b637b231956" />
+>
 <br>
 
 **Step 25: I input and confirmed the secure credentials for the Client-1 VM.
 <br>
+<img width="1366" height="768" alt="Step 25  Inputting Username   Password for 2nd Windows VM" src="https://github.com/user-attachments/assets/ce4b2105-4c80-45ae-8321-03dc7a51efcc" />
+>
+<br>
 
 **Step 26: I selected ADVNET as the Virtual Network for the Client-1 VM.
+<br>
+<img width="1366" height="768" alt="Step 26  Selecting ADVNET as Virtual Network for 2nd Windows VM" src="https://github.com/user-attachments/assets/0665d7c4-cc22-4aa2-aa7c-6605db1e7521" />
+>
 <br>
 
 **Step 27: I ran the validation check to ensure Client-1 was ready for deployment.
 <br>
+<img width="1366" height="768" alt="Step 27  Validation for 2nd Windows VM for creation" src="https://github.com/user-attachments/assets/96d28360-d068-453f-bdcc-2c96cfd79abe" />
+>
+<br>
 
 **Step 28: I confirmed that the Client-1 virtual machine was successfully created.
+<br>
+<img width="1366" height="768" alt="Step 28  Client - 1 Windows VM Created" src="https://github.com/user-attachments/assets/c2bc8ee2-d703-46e7-992b-54a9c18b4b0b" />
+>
 <br>
 
 **Step 29: I located and copied the Public IP Address 104.214.185.151 assigned to the Domain-Controller VM.
 <br>
+<img width="1366" height="768" alt="Step 29  Copying Domain Controller Public IP Address for Remote Desktop" src="https://github.com/user-attachments/assets/5745a9da-f905-4058-98ea-9702a32592d1" />
+>
+<br>
 
 **Step 30: I launched Remote Desktop Connection and initiated a session using the copied Public IP Addresss 104.214.185.151.
+<br>
+<img width="1366" height="768" alt="Step 30  Connecting to Domain Controller on Remote Desktop using Public IP" src="https://github.com/user-attachments/assets/cd76641f-0357-4ef9-932a-3ac3aa335924" />
+>
 <br>
 
 **Step 31: I entered my administrative credentials to authenticate the remote session.
 <br>
+<img width="1366" height="768" alt="Step 31  Inputting password for Domain Controller on Remote Desktop" src="https://github.com/user-attachments/assets/072d1102-43e4-4161-9a50-e53b8f7e74a5" />
+>
+<br>
 
 **Step 32: I confirmed successful login and access to the Domain-Controller desktop.
+<br>
+<img width="1366" height="768" alt="Step 32  Successfull Login to Domain Controller Windows VM" src="https://github.com/user-attachments/assets/1765b84a-668d-459f-82e3-0e9055dfcb07" />
+>
 <br>
 
 **Step 33: I pressed Windows + R and typed wf.msc to launch the Windows Defender Firewall.
 <br>
+<img width="1366" height="768" alt="Step 33  Openning Run program to launch Windows defender firewall" src="https://github.com/user-attachments/assets/beab9c46-00c4-40ab-950d-4b354d8051ed" />
+>
+<br>
 
 **Step 34: I verified that the Windows Defender Firewall with Advanced Security console had opened.
+<br>
+<img width="1366" height="768" alt="Step 34  Succesfull launch of Windows defender firewall" src="https://github.com/user-attachments/assets/98dc350a-de87-4c8a-ad5d-3c3d38260418" />
+>
 <br>
 
 **Step 35: I accessed the Properties window and set the Domain Profile firewall state to Off.
 <br>
+<img width="1366" height="768" alt="Step 35  Acessing Windows defender firewall properties to alter domain profile to firewall state off" src="https://github.com/user-attachments/assets/cd1d3ac3-ddb2-49d4-84f8-aa77b43bba38" />
+>
+<br>
 
 **Step 36: In the same Properties window, I set the Private Profile firewall state to Off.
+<br>
+<img width="1366" height="768" alt="Step 36  Acessing Windows defender firewall properties to alter private profile to firewall state off" src="https://github.com/user-attachments/assets/de6c36d8-a517-4a4a-ae3e-270f2a97c6be" />
+>
 <br>
 
 **Step 37: I set the Public Profile firewall state to Off.
 <br>
+<img width="1366" height="768" alt="Step 37  Acessing Windows defender firewall properties to alter public profile to firewall state off" src="https://github.com/user-attachments/assets/f5e20376-825c-48fb-9d16-a2d0f0fd08a1" />
+>
+<br>
 
 **Step 38: I confirmed and applied the changes to the firewall profiles.
+<br>
+<img width="1366" height="768" alt="Step 38  Final Confirmation of Windows Defender Firewall Properties change" src="https://github.com/user-attachments/assets/531d0706-f2e4-412e-b4c2-8668ad7e84a6" />
+>
 <br>
 
 **Step 39: I navigated to the Network Interface settings for the Domain-Controller and changed the Private IP allocation to Static.
 <br>
+<img width="1366" height="768" alt="Step 39  Configuring Private IP Address of Domain Controller VM to static" src="https://github.com/user-attachments/assets/f426dcb9-6066-4651-a016-6abdafd2cda3" />
+>
+<br>
 
 **Step 40: I verified that the internal IP address (10.0.0.4) was successfully set to Static.
+<br>
+<img width="1366" height="768" alt="Step 40  Confirmation Domain Controller private IP address is static" src="https://github.com/user-attachments/assets/278c9322-feff-4451-89c0-2893f0e512b6" />
+>
 <br>
 
 **Step 41: I copied the Private IP Address of the Domain-Controller for my next configuration step.
 <br>
+<img width="1366" height="768" alt="Step 41  Copying Domain Controller Private IP Address" src="https://github.com/user-attachments/assets/a26493aa-aac4-45af-90a4-16d4d1045adb" />
+>
+<br>
 
 **Step 42: I navigated to the Network settings for the Client-1 VM in the Azure portal.
+<br>
+<img width="1366" height="768" alt="Step 42  Acessing Client - 1 VM Network Settings" src="https://github.com/user-attachments/assets/8162a511-1797-4fef-8b1e-b11cea002f99" />
+>
 <br>
 
 **Step 43: I accessed the DNS server settings for the Client-1 network interface.
 <br>
+<img width="1366" height="768" alt="Step 43  Accessing Client - 1 VM DNS server settings" src="https://github.com/user-attachments/assets/26bde0c8-d831-431c-93a3-0d30e540e7f6" />
+>
+<br>
 
 **Step 44: I changed the DNS setting to Custom and entered the Domain-Controller’s private IP (10.0.0.4).
+<br>
+<img width="1366" height="768" alt="Step 44  Altering Client - 1 VM Settings to Custom   using private ip of Domain controller" src="https://github.com/user-attachments/assets/082adbd9-d207-413d-8c3f-52ded8eb2393" />
+>
 <br>
 
 **Step 45: I saved the changes and confirmed the DNS server update for Client-1.
 <br>
+<img width="1366" height="768" alt="Step 45  Confirmation change of client - 1 VM dns server settings" src="https://github.com/user-attachments/assets/965ab40f-bfed-49f2-8139-81b13a9c6b9e" />
+>
+<br>
 
 **Step 46: I located and copied the Public IP Address of the Client-1 VM.
+<br>
+<img width="1366" height="768" alt="Step 46  Copying Public IP address of Client - 1 VM" src="https://github.com/user-attachments/assets/a88d337d-a6d9-4272-a81d-b8a72970914a" />
+>
 <br>
 
 **Step 47: I opened Remote Desktop, connected using the Client-1 Public IP Addresss 104.214.179.243, and input my credentials.
 <br>
+<img width="1366" height="768" alt="Step 47  Logging in to Client - 1 VM - inputting password" src="https://github.com/user-attachments/assets/2917b81d-dde0-4272-9447-a07ac7119921" />
+>
+<br>
 
 **Step 48: I confirmed successful launch and login to the Client-1 desktop.
+<br>
+<img width="1366" height="768" alt="Step 48  Successfull launch of Client - 1 VM" src="https://github.com/user-attachments/assets/fc1d37fd-26b4-47e1-b470-d667276e94f2" />
+>
 <br>
 
 **Step 49: I opened Settings from the Start menu to verify the system identity.
 <br>
+<img width="1366" height="768" alt="Step 49  Comfirming again i have logged in Client - 1 VM by clicking windows key   accessing settings" src="https://github.com/user-attachments/assets/42a78e4e-b7f1-49c2-a69c-905ae1c3225d" />
+>
+<br>
 
 **Step 50: I searched for and launched Windows PowerShell with administrative privileges.
+<br>
+<img width="1366" height="768" alt="Step 50  Launching Windows Powershell" src="https://github.com/user-attachments/assets/82f91d28-5816-4ae7-8159-8207725b37f3" />
+>
 <br>
 
 **Step 51: At the PowerShell prompt, I typed ping 10.0.0.4 to test the connection to the Domain Controller.
 <br>
+<img width="1366" height="768" alt="Step 51  Successfull launch of Windows Powersshell   prompt to ping private ip address to check it is using Domain Controller as its DNS Server" src="https://github.com/user-attachments/assets/5a0b4ae8-ed89-43e9-9a54-06d7e985f904" />
+>
+<br>
 
 **Step 52: I observed the successful ping replies to confirm network connectivity.
+<br>
+<img width="1366" height="768" alt="Step 52  Succesfull ping to check Client - 1 VM is using Domain Controller as its DNS Server" src="https://github.com/user-attachments/assets/74b1ec45-1f98-4449-9bc1-6e9af2096d4a" />
+>
 <br>
 
 **Step 53: I executed the ipconfig /all command to verify that the Client-1 VM was correctly using the Domain Controller for DNS resolution.
 <br>
-
+<img width="1366" height="768" alt="Step 53  Succesfull prompt of ipconfig all command to check if Client - 1 VM is using Domain Controller as its DNS Server" src="https://github.com/user-attachments/assets/9d3f000b-5951-43e8-8496-922540b20060" />
+>
+<br>
 ⸻
 <br>
 
@@ -202,7 +360,7 @@ In this phase, I configured the Domain Controller and established a formal domai
 <br>
 ⸻
 
-**Step 54: I logged back into the Domain-Controller virtual machine.
+**Step 54: I logged into the Domain-Controller virtual machine.
 <br>
 
 **Step 55: I input my password to authenticate the session.
@@ -232,7 +390,7 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 63: I selected Active Directory Domain Services as the required role.
 <br>
 
-**Step 64: I confirmed the inclusion of required management tools for AD DS.
+**Step 64: I confirmed the inclusion of required management tools for Active Directory Services.
 <br>
 
 **Step 65: I verified the successful completion of the Add Roles & Features installation.
@@ -280,13 +438,13 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 79: I created a second OU named Admins.
 <br>
 
-**Step 80: I initiated the creation of a new user within the Admins OU.
+**Step 80: I initiated the creation of a new user Siyolo Kamisa/Siyolo_Admin within the Admins OU.
 <br>
 
 **Step 81: I entered the new user details for Siyolo_Admin.
 <br>
 
-**Step 82: I verified the Siyolo_Admin account details.
+**Step 82: Siyolo_Admin account details ie password.
 <br>
 
 **Step 83: I created a secure password for the Siyolo_Admin account.
@@ -298,7 +456,7 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 85: I accessed the Properties window for Siyolo_Admin to modify account permissions.
 <br>
 
-**Step 86: I navigated to the Member Of tab to manage group memberships.
+**Step 86: I navigated to the Member Of tab to manage group memberships for Siyolo_Admin.
 <br>
 
 **Step 87: I verified the initial Domain Users membership.
@@ -307,10 +465,10 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 88: I added Domain Admins to the member list for Siyolo_Admin.
 <br>
 
-**Step 89: I confirmed the successful update of the user's account properties.
+**Step 89: I confirmed the successful update of the user's account properties for Siyolo_Admin - added to domain admin & domain users.
 <br>
 
-**Step 90: I logged into the Domain-Controller using the new Siyolo_Admin credentials.
+**Step 90: I logged into the Domain-Controller using the new credentials Siyolo_Admin.
 <br>
 
 **Step 91: I input the password for Siyolo_Admin.
