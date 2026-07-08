@@ -543,7 +543,6 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 99: I confirmed the domain change request.**
 <br>
 
-
 **Step 100: I entered the administrative credentials for Siyolo_Admin to authorize joining the domain.**
 <br>
 
