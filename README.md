@@ -392,189 +392,287 @@ In this phase, I focused on user administration and the implementation of Group 
 <br>
 ⸻
 
-Step 114: I logged into the Client-1 VM.
+**Step 114: I logged into the Client-1 VM.
+<br>
 
-Step 115: I entered my credentials for the Client-1 VM.
+**Step 115: I entered my credentials for the Client-1 VM.
+<br>
 
-Step 116: I successfully reached the desktop of the Client-1 VM.
+**Step 116: I successfully reached the desktop of the Client-1 VM.
+<br>
 
-Step 117: I opened the Windows Settings menu to modify system preferences.
+**Step 117: I opened the Windows Settings menu to modify system preferences.
+<br>
 
-Step 118: I navigated to the System menu within the settings interface.
+**Step 118: I navigated to the System menu within the settings interface.
+<br>
 
-Step 119: I located the Remote Desktop configuration page.
+**Step 119: I located the Remote Desktop configuration page.
+<br>
 
-Step 120: I toggled the switch to enable Remote Desktop connections.
+**Step 120: I toggled the switch to enable Remote Desktop connections.
+<br>
 
-Step 121: I confirmed the system prompt to enable the feature.
+**Step 121: I confirmed the system prompt to enable the feature.
+<br>
 
-Step 122: I selected the link to manage Remote Desktop users.
+**Step 122: I selected the link to manage Remote Desktop users.
+<br>
 
-Step 123: I clicked the button to add new users to the Remote Desktop group.
+**Step 123: I clicked the button to add new users to the Remote Desktop group.
+<br>
 
-Step 124: I typed "Domain Users" into the object selection field.
+**Step 124: I typed "Domain Users" into the object selection field.
+<br>
 
-Step 125: I verified the user group was added and closed the settings window.
+**Step 125: I verified the user group was added and closed the settings window.
+<br>
 
-Step 126: I initiated my remote login to the Domain Controller VM.
+**Step 126: I initiated my remote login to the Domain Controller VM.
+<br>
 
-Step 127: I typed my administrative password to gain access.
+**Step 127: I typed my administrative password to gain access.
+<br>
 
-Step 128: I successfully established my desktop session on the Domain Controller.
+**Step 128: I successfully established my desktop session on the Domain Controller.
+<br>
 
-Step 129: I launched the Windows PowerShell ISE application from the start menu.
+**Step 129: I launched the Windows PowerShell ISE application from the start menu.
+<br>
 
-Step 130: I verified that the PowerShell ISE interface loaded correctly.
+**Step 130: I verified that the PowerShell ISE interface loaded correctly.
+<br>
 
-Step 131: I opened the script file designed for automated user creation.
+**Step 131: I opened the script file designed for automated user creation.
+<br>
 
-Step 132: I triggered the execution of the user creation script.
+**Step 132: I triggered the execution of the user creation script.
+<br>
 
-Step 133: I observed the terminal confirming the successful generation of user objects.
+**Step 133: I observed the terminal confirming the successful generation of user objects.
+<br>
 
-Step 134: I searched for and opened the Active Directory Users and Computers (ADUC) tool.
+**Step 134: I searched for and opened the Active Directory Users and Computers (ADUC) tool.
+<br>
 
-Step 135: I maximized the ADUC console to prepare for verification users have been created.
+**Step 135: I maximized the ADUC console to prepare for verification users have been created.
+<br>
 
-Step 136: I browsed the "Employees/Staff" folder to confirm the new accounts appeared in the list.
+**Step 136: I browsed the "Employees/Staff" folder to confirm the new accounts appeared in the list.
+<br>
 
-Step 137: I selected the specific user "Kufukos Bukohu" to prepare for an RDP test.
+**Step 137: I selected the specific user "Kufukos Bukohu" to prepare for an RDP test.
+<br>
 
-Step 138: I reviewed the user account properties to ensure correct configuration.
+**Step 138: I reviewed the user account properties to ensure correct configuration.
+<br>
 
-Step 139: I initiated an RDP connection to Client-1 using the selected account "Kufukos Bukohu".
+**Step 139: I initiated an RDP connection to Client-1 using the selected account "Kufukos Bukohu".
+<br>
 
-Step 140: I provided the password for the "Kufukos Bukohu" account.
+**Step 140: I provided the password for the user "Kufukos Bukohu" account.
+<br>
 
-Step 141: I successfully logged into the user "Kufukos Bukohu" on the Client-1 VM.
+**Step 141: I successfully logged into the user "Kufukos Bukohu" on the Client-1 VM.
+<br>
 
-Step 142: I verified my identity "Kufukos Bukohu" by checking the logged-in user profile on Client-1.
+**Step 142: I verified my identity "Kufukos Bukohu" by checking the logged-in user profile on Client-1.
+<br>
 
-Step 143: I returned to the Domain Controller desktop for policy configuration.
+**Step 143: I returned to the Domain Controller desktop for policy configuration.
+<br>
 
-Step 144: I authenticated into the Domain Controller session.
+**Step 144: I authenticated into the Domain Controller session.
+<br>
 
-Step 145: I confirmed my access to the domain administrative tools.
+**Step 145: I confirmed my access to the domain administrative tools.
+<br>
 
-Step 146: I opened the Group Policy Management console.
+**Step 146: I opened the Group Policy Management console.
+<br>
 
-Step 147: I ensured the management snap-in initialized correctly.
+**Step 147: I succesfully initialized correctly Group Policy Management console.
+<br>
 
-Step 148: I expanded the "mydomain.com" tree in the left navigation pane.
+**Step 148: I expanded the "mydomain.com" tree in the left navigation pane to set Group Police y Rules.
+<br>
 
-Step 149: I selected the Default Domain Policy object.
+**Step 149: I selected the Default Domain Policy object.
+<br>
 
-Step 150: I selected the "Edit" function to modify policy rules.
+**Step 150: I selected the "Edit" function to modify policy rules.
+<br>
 
-Step 151: I expanded the policy tree to reach the Account Lockout settings.
+**Step 151: I expanded the policy tree to reach the Account Lockout settings.
+<br>
 
-Step 152: I set the Lockout Policy to 45 Minutes.
+**Step 152: I set the Lockout Policy to 45 Minutes.
+<br>
 
-Step 153: I opened the Account Lockout Duration properties window.
+**Step 153: I opened the Account Lockout Duration properties window.
+<br>
 
-Step 154: I entered the value to trigger account locks after 3 failed attempts.
+**Step 154: I opened the Account Lockout Threshold & set to lock out after 3 failed attempts.
+<br>
 
-Step 155: My account lockout policy rules.
+**Step 155: My fianl account lockout policy rules.
+<br>
 
-Step 156: I opened the Command Prompt as an administrator.
+**Step 156: I opened the Command Prompt as an administrator to enforce new group policy rules.
+<br>
 
-Step 157: I verified the command console was ready for my input.
+**Step 157: I verified the command console was ready for my input.
+<br>
 
-Step 158: I ran whoami to ensure I was executing commands in the correct domain context.
+**Step 158: I ran whoami to ensure I was executing commands in the correct domain context Siyolo Admin of Domain Controller
+<br>
 
-Step 159: I initiated the group policy update process.
+**Step 159: I initiated the group policy update process by utilizing the command gpupdate /force .
+<br>
 
-Step 160: I received the system confirmation that the policy update succeeded.
+**Step 160: I received the system confirmation that the policy update succeeded.
+<br>
 
-Step 161: I prepared the gpresult command to check the effective policy sets.
+**Step 161: I utilozed the gpresult command to check the effective policy sets.
+<br>
 
-Step 162: I executed the diagnostic tool to review applied policies.
+**Step 162: I executed the diagnostic tool to review applied policies.
+<br>
 
-Step 163: I reviewed the command output to verify the policy application status.
+**Step 163: I reviewed the command output to verify the policy application status.
+<br>
 
-Step 164: I returned to Client-1 to test the new lockout policy.
+**Step 164: I returned to Client-1 to test the new lockout policy using the user "Kufukos Bukohu".
+<br>
 
-Step 165: I entered the credentials for the test user.
+**Step 165: I entered the credentials for the user "Kufukos Bukohu" .
+<br>
 
-Step 166: I intentionally provided an incorrect password to trigger the policy.
+**Step 166: I intentionally provided an incorrect password to trigger the policy.
+<br>
 
-Step 167: I repeated the incorrect login attempts.
+**Step 167: I repeated the incorrect login attempts.
+<br>
 
-Step 168: I observed the system lock the account due to the repeated failed attempts.
+**Step 168: I observed the system lock the account due to the repeated failed attempts.
+<br>
 
-Step 169: I moved back to the Domain Controller to perform the manual unlock.
+**Step 169: I moved back to the Domain Controller to perform the manual unlock.
+<br>
 
-Step 170: I opened the ADUC console to manage the locked user.
+**Step 170: I opened the ADUC console to manage the locked user "Kufukos Bukohu".
+<br>
 
-Step 171: I located the "Kufukos Bukohu" account in the directory.
+**Step 171: I located the "Kufukos Bukohu" account in the directory.
+<br>
 
-Step 172: I accessed the properties of the locked user object.
+**Step 172: I accessed the properties of the locked user "Kufukos Bukohu".
+<br>
 
-Step 173: I navigated to the Account tab in the properties window.
+**Step 173: I navigated to the Account tab in the properties window.
+<br>
 
-Step 174: I checked the box to unlock the user account.
+**Step 174: Loocked for a box check to unlock the user account.
+<br>
 
-Step 175: I applied the changes to release the account lock.
+**Step 175: I applied the changes to release the account lock by ticking the box unlock account for the user "Kufukos Bukohu".
+<br>
 
-Step 176: I returned to the Client-1 VM for a final login test.
+**Step 176: I returned to the Client-1 VM for a final login test "Kufukos Bukohu" user.
+<br>
 
-Step 177: I entered the password for the now-unlocked account.
+**Step 177: I entered the password for the now-unlocked account user "Kufukos Bukohu".
+<br>
 
-Step 178: I verified that the account was accessible again.
+**Step 178: I verified that the user "Kufukos Bukohu" was accessible again .
+<br>
 
-Step 179: I confirmed the successful login to the user desktop.
+**Step 179: I confirmed the successful login to the user desktop "Kufukos Bukohu".
+<br>
 
-Step 180: I switched back to the Domain Controller to manage further user settings.
+**Step 180: I switched back to the Domain Controller to manage further user settings.
+<br>
 
-Step 181: I launched the ADUC tool to perform a password management task.
+**Step 181: I launched the ADUC tool to perform a password management task.
+<br>
 
-Step 182: I navigated to the "Employees/Staff" organizational unit.
+**Step 182: I navigated to the "Employees/Staff" organizational unit.
+<br>
 
-Step 183: I selected the "Sadagid Nisud" account from the user list.
+**Step 183: I selected the "Sadagid Nisud" account from the user list.
+<br>
 
-Step 184: I opened the context menu to select the password reset option.
+**Step 184: I opened the context menu to select the password reset option.
+<br>
 
-Step 185: I set a new password for the selected user.
+**Step 185: I set a new password for the selected user "Sadagid Nisud".
+<br>
 
-Step 186: I transitioned to the next administrative task: disabling a user account.
+**Step 186: I transitioned to the next administrative task: disabling a user account.
+<br>
 
-Step 187: I opened the ADUC console to modify account status.
+**Step 187: I opened the ADUC console to modify account status.
+<br>
 
-Step 188: I selected "Demoxome Sukud" for the disable operation.
+**Step 188: I selected the user "Demoxome Sukud" for the disable operation.
+<br>
 
-Step 189: I right-clicked the object to reveal management options.
+**Step 189: I right-clicked the object to reveal management options.
+<br>
 
-Step 190: I triggered the action to disable the account and confirmed the success message.
+**Step 190: I triggered the action to disable the account and confirmed the success message.
+<br>
 
-Step 191: I tested the restriction by attempting a login with the disabled account.
+**Step 191: I tested the restriction by attempting a login with the disabled account "Demoxome Sukud".
+<br>
 
-Step 192: I entered the credentials for the disabled user.
+**Step 192: I entered the credentials for the disabled user "Demoxome Sukud".
+<br>
 
-Step 193: I observed the system error message indicating the account was disabled.
+**Step 193: I observed the system error message indicating the account was disabled of "Demoxome Sukud".
+<br>
 
-Step 194: I returned to the Domain Controller to re-enable the account.
+**Step 194: I returned to the Domain Controller to re-enable the account "Demoxome Sukud".
+<br>
 
-Step 195: I accessed the user account within the ADUC console.
+**Step 195: I accessed the user account "Demoxome Sukud" within the ADUC console.
+<br>
 
-Step 196: I selected the option to enable the user account.
+**Step 196: I selected the option to enable the user account "Demoxome Sukud".
+<br>
 
-Step 197: I confirmed the change for the "Demoxome Sukud" account.
+**Step 197: I confirmed the change for the "Demoxome Sukud" account.
+<br>
 
-Step 198: I received the system notification that the object was successfully enabled.
+**Step 198: I received the system notification that the object was successfully enabled.
+<br>
 
-Step 199: I switched to the Client-1 VM to verify the account was active.
+**Step 199: I switched to the Client-1 VM to verify the account was active.
+<br>
 
-Step 200: I entered the password to log in.
+**Step 200: I entered the password to log in "Demoxome Sukud".
+<br>
 
-Step 201: I reached the desktop to confirm access was restored.
+**Step 201: I reached the desktop to confirm access was restored of "Demoxome Sukud".
+<br>
 
-Step 202: I verified the user profile of the account.
+**Step 202: I verified the user profile of the account "Demoxome Sukud".
+<br>
 
-Step 203: I opened the PowerShell terminal to perform a final confirmation.
+**Step 203: I opened the PowerShell terminal to perform a final confirmation.
+<br>
 
-Step 204: I typed the whoami command into the terminal.
+**Step 204: I typed the whoami command into the terminal.
+<br>
 
-Step 205: I viewed the output confirming the correct user session was active.
+**Step 205: I viewed the output confirming the correct user session was active of "Demoxome Sukud".
+<br>
 
-Step 206: I returned to the Domain Controller desktop
+**Step 206: I returned to the Domain Controller desktop to conclude the lab.
+<br>
 
+⸻
+
+#🏁Conclusion 
+
+Successfully deployed a fully functional Active Directory environment capable of authenticating users, managing computers, and providing centralized administration similar to what is used in enterprise IT environments.
