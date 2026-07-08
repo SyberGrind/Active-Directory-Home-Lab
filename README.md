@@ -543,6 +543,9 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 99: I confirmed the domain change request.**
 <br>
 
+
+
+
 **Step 100: I entered the administrative credentials for Siyolo_Admin to authorize joining the domain.**
 <br>
 
@@ -714,6 +717,8 @@ In this phase, I focused on user administration and the implementation of Group 
 
 **Step 153: I opened the Account Lockout Duration properties window.**
 <br>
+
+
 
 **Step 154: I opened the Account Lockout Threshold & set to lock out after 3 failed attempts.**
 <br>
