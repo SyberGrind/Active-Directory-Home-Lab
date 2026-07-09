@@ -733,234 +733,348 @@ In this phase, I focused on user administration and the implementation of Group 
 **Step 114: I logged into the Client-1 VM.**
 <br>
 <img width="1366" height="768" alt="Step 114  Logging into Client -1 VM" src="https://github.com/user-attachments/assets/c89e77b8-8a34-4f7b-9a2a-880d79eeb384" />
+>
+<br>
 
 **Step 115: I entered my credentials for the Client-1 VM.**
 <br>
 <img width="1366" height="768" alt="Step 115  Inputting Password for Client - 1 VM" src="https://github.com/user-attachments/assets/026ec811-3984-4a3d-a22a-7183217eef4a" />
+>
+<br>
 
 **Step 116: I successfully reached the desktop of the Client-1 VM.**
 <br>
 <img width="1366" height="768" alt="Step 116  Successful login to Client - 1 VM" src="https://github.com/user-attachments/assets/2bc1c66f-7822-457d-9506-992cec177f23" />
+>
+<br>
 
 **Step 117: I opened the Windows Settings menu to modify system preferences.**
 <br>
 <img width="1366" height="768" alt="Step 117  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/f2a797cd-7f0b-413e-8f4d-2d82fa99b187" />
+>
+<br>
 
 **Step 118: I navigated to the System menu within the settings interface.**
 <br>
 <img width="1366" height="768" alt="Step 118  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/c670e97e-810e-4f2c-bb17-a015c8f2cf78" />
+>
+<br>
 
 **Step 119: I located the Remote Desktop configuration page.**
 <br>
 <img width="1366" height="768" alt="Step 119  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/3f081008-eca6-486c-94fc-c00504463fdd" />
+>
+<br>
 
 **Step 120: I toggled the switch to enable Remote Desktop connections.**
 <br>
 <img width="1366" height="768" alt="Step 120  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/5933a75b-f4c6-4151-ba03-d7557dcaf370" />
+>
+<br>
 
 **Step 121: I confirmed the system prompt to enable the feature.**
 <br>
 <img width="1366" height="768" alt="Step 121  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/483755e1-427d-4e4e-b1ae-a6dbff9812eb" />
+>
+<br>
 
 **Step 122: I selected the link to manage Remote Desktop users.**
 <br>
 <img width="1366" height="768" alt="Step 122  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/d4204b80-5e17-46a2-a3c0-77edb127bc0e" />
+>
+<br>
 
 **Step 123: I clicked the button to add new users to the Remote Desktop group.**
 <br>
 <img width="1366" height="768" alt="Step 123  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/65f99168-8ab4-4ad0-a60c-47a97f6c73cb" />
+>
+<br>
 
 **Step 124: I typed "Domain Users" into the object selection field.**
 <br>
 <img width="1366" height="768" alt="Step 124  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/0c09eda8-38de-4b96-89de-db3eef1db62d" />
+>
+<br>
 
 **Step 125: I verified the user group was added and closed the settings window.**
 <br>
 <img width="1366" height="768" alt="Step 125  Accessing Remote Desktop Settings on Client - 1 to allow users to join Remote Desktop" src="https://github.com/user-attachments/assets/4c5fef45-eda8-4a8a-8704-c435bc4c3929" />
+>
+<br>
 
 **Step 126: I initiated my remote login to the Domain Controller VM.**
 <br>
 <img width="1366" height="768" alt="Step 126  Logging in to Domain Controller" src="https://github.com/user-attachments/assets/61a5320b-5ea0-4417-9e8e-3cda40dde4d7" />
+>
+<br>
 
 **Step 127: I typed my administrative password to gain access.**
 <br>
 <img width="1366" height="768" alt="Step 127  Inputting password for Domain Controller" src="https://github.com/user-attachments/assets/39838dcc-3154-46dd-86e7-7016ea16c8c9" />
+>
+<br>
 
 **Step 128: I successfully established my desktop session on the Domain Controller.**
 <br>
 <img width="1366" height="768" alt="Step 128  Successful log in to Domain Controller" src="https://github.com/user-attachments/assets/c463b5e5-0f5a-4233-92c9-1e8169310478" />
+>
+<br>
 
 **Step 129: I launched the Windows PowerShell ISE application from the start menu.**
 <br>
 <img width="1366" height="768" alt="Step 129  Launching Windows Powershell ISE on Domain Controller to create users" src="https://github.com/user-attachments/assets/ae2ed801-c159-4648-9416-55e2469b6de2" />
+>
+<br>
 
 **Step 130: I verified that the PowerShell ISE interface loaded correctly.**
 <br>
 <img width="1366" height="768" alt="Step 130  Successful launch of Windows Powershell ISE to create users on Domain Controller" src="https://github.com/user-attachments/assets/5ed23947-0811-4bc1-b87a-c869c9942cf0" />
+>
+<br>
 
 **Step 131: I opened the script file designed for automated user creation.**
 <br>
 <img width="958" height="1600" alt="Step 131  Script to create users" src="https://github.com/user-attachments/assets/010a2466-af36-4333-a9d9-356463c87dca" />
+>
+<br>
 
 **Step 132: I triggered the execution of the user creation script.**
 <br>
 <img width="1366" height="768" alt="Step 132  Promtp of script to create users on Windows Powershell ISE - Domain Controller VM" src="https://github.com/user-attachments/assets/6ea6b41d-14f7-4c4f-af18-88069d025200" />
+>
+<br>
 
 **Step 133: I observed the terminal confirming the successful generation of user objects.**
 <br>
 <img width="1366" height="768" alt="Step 133  Successful prompt of user script on Domain Controller" src="https://github.com/user-attachments/assets/b2f9dea1-8204-41cd-a396-9aabdc8f50a3" />
+>
+<br>
 
 **Step 134: I searched for and opened the Active Directory Users and Computers (ADUC) tool.**
 <br>
 <img width="1366" height="768" alt="Step 134  Opening  Active Directory to verify users have been created" src="https://github.com/user-attachments/assets/eb36e451-3cc5-4baa-8416-709ddf6aa3fb" />
+>
+<br>
 
 **Step 135: I maximized the ADUC console to prepare for verification users have been created.**
 <br>
 <img width="1366" height="768" alt="Step 135  Succesful launch of Active Directory to verify users have been created" src="https://github.com/user-attachments/assets/174eaf8b-d374-4d32-ba02-af6452714d6a" />
+>
+<br>
 
 **Step 136: I browsed the "Employees/Staff" folder to confirm the new accounts appeared in the list.**
 <br>
 <img width="1366" height="768" alt="Step 136  Users created confirmed on ADUC of Domain Controller" src="https://github.com/user-attachments/assets/e31c95cb-0c1c-45ad-ba4f-fb8413aeb0be" />
+>
+<br>
 
 **Step 137: I selected the specific user "Kufukos Bukohu" to prepare for an RDP test.**
 <br>
 <img width="1366" height="768" alt="Step 137  Selecting one of the user accounts (Kufukos Bukohu) I created to log into Client - 1 VM" src="https://github.com/user-attachments/assets/8cf6bacb-8d04-4796-b2b5-d954829b3758" />
+>
+<br>
 
 **Step 138: I reviewed the user account properties to ensure correct configuration.**
 <br>
 <img width="1366" height="768" alt="Step 138  Verifying Kufukos Bukohu is a user" src="https://github.com/user-attachments/assets/c14c09ef-d29c-43df-bb49-aeb6739980cf" />
+>
+<br>
 
 **Step 139: I initiated an RDP connection to Client-1 using the selected account "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 139  Selecting Kufukos Bukohu I to log into Client - 1 VM" src="https://github.com/user-attachments/assets/4d8fe99a-833b-4090-88cc-87a169927f93" />
+>
+<br>
 
 **Step 140: I provided the password for the user "Kufukos Bukohu" account.**
 <br>
 <img width="1366" height="768" alt="Step 140  Inputting password for Kufukos Bukohu" src="https://github.com/user-attachments/assets/b5cc552f-102c-4bb2-ad8d-2cc6d5c7e019" />
+>
+<br>
 
 **Step 141: I successfully logged into the user "Kufukos Bukohu" on the Client-1 VM.**
 <br>
 <img width="1366" height="768" alt="Step 141  Successful log in to Kufukos Bukohu" src="https://github.com/user-attachments/assets/aef4e610-1d25-4794-906b-c2b339b65588" />
+>
+<br>
 
 **Step 142: I verified my identity "Kufukos Bukohu" by checking the logged-in user profile on Client-1.**
 <br>
 <img width="1366" height="768" alt="Step 142  Verifying I am in Kufukos Bukohu Account" src="https://github.com/user-attachments/assets/9b0166b4-6659-469a-8a9d-823ff83c6a12" />
+>
+<br>
 
 **Step 143: I returned to the Domain Controller desktop for policy configuration.**
 <br>
 <img width="1366" height="768" alt="Step 143  Logging into Domain Controller VM" src="https://github.com/user-attachments/assets/c7900df0-a2ce-482f-81e5-d17cc292b0bf" />
+>
+<br>
 
 **Step 144: I authenticated into the Domain Controller session.**
 <br>
 <img width="1366" height="768" alt="Step 144  Inputting Password" src="https://github.com/user-attachments/assets/cdecdb10-964e-4380-83c8-8ad038f95c18" />
+>
+<br>
 
 **Step 145: I confirmed my access to the domain administrative tools.**
 <br>
 <img width="1366" height="768" alt="Step 145  Successfull login" src="https://github.com/user-attachments/assets/08f8343e-6d4a-44cc-963c-a12fb5d78053" />
+>
+<br>
 
 **Step 146: I opened the Group Policy Management console.**
 <br>
 <img width="1366" height="768" alt="Step 146  Accessing Group Policy Management of Active Directory - Domain Controller" src="https://github.com/user-attachments/assets/fa9a223b-52fe-470d-91a2-49893692194f" />
+>
+<br>
 
 **Step 147: I succesfully initialized correctly Group Policy Management console.**
 <br>
 <img width="1366" height="768" alt="Step 147  Successful Launch of Group Policy Management of Active Directory" src="https://github.com/user-attachments/assets/a27e43f4-c4cc-4e6a-8566-7dacdcb2ef77" />
+>
+<br>
 
 **Step 148: I expanded the "mydomain.com" tree in the left navigation pane to set Group Police Rules.**
 <br>
 <img width="1366" height="768" alt="Step 148  Setting Group Policy Rules of mydomain com" src="https://github.com/user-attachments/assets/f3f2bcda-8165-410d-9825-a5c7f22ac6c1" />
+>
+<br>
 
 **Step 149: I selected the Default Domain Policy object.**
 <br>
 <img width="1366" height="768" alt="Step 149  Setting Group Policy Rules of mydomain com" src="https://github.com/user-attachments/assets/08483a23-c8ef-42ce-a2bb-a65bcef8db87" />
+>
+<br>
 
 **Step 150: I selected the "Edit" function to modify policy rules.**
 <br>
 <img width="1366" height="768" alt="Step 150  Setting Group Policy Rules of mydomain com" src="https://github.com/user-attachments/assets/2997c4f9-4da9-4df1-9062-149bd22a3089" />
+>
+<br>
 
 **Step 151: I expanded the policy tree to reach the Account Lockout settings.**
 <br>
 <img width="1366" height="768" alt="Step 151  Setting Group Policy Rules of mydomain com Setting Group Policy Rules of mydomain com (Account Lockout)" src="https://github.com/user-attachments/assets/894f662c-3be6-48a5-b864-cb9e151615c4" />
+>
+<br>
 
 **Step 152: I set the Lockout Policy to 45 Minutes.**
 <br>
 <img width="1366" height="768" alt="Step 152  Setting Group Policy Rules of mydomain com Setting Group Policy Rules of mydomain com (Account Lockout)" src="https://github.com/user-attachments/assets/9ee6b57c-1cb1-4c3f-8c53-e7a1f5829263" />
-
+>
+<br>
 **Step 153: I opened the Account Lockout Duration properties window.**
 <br>
 <img width="1366" height="768" alt="Step 153   Setting Group Policy Rules of mydomain com Setting Group Policy Rules of mydomain com (Account Lockout)" src="https://github.com/user-attachments/assets/2a33207e-3cac-423c-9dc3-2f9100241066" />
+>
+<br>
 
 **Step 154: I opened the Account Lockout Threshold & set to lock out after 3 failed attempts.**
 <br>
 <img width="1366" height="768" alt="Step 154   Setting Group Policy Rules of mydomain com Setting Group Policy Rules of mydomain com (Account Lockout)" src="https://github.com/user-attachments/assets/80ed4b7a-e16d-4982-a0a4-ef90139ba134" />
+>
+<br>
 
 **Step 155: My fianl account lockout policy rules.**
 <br>
 <img width="1366" height="768" alt="Step 155   Setting Group Policy Rules of mydomain com Setting Group Policy Rules of mydomain com (Account Lockout)" src="https://github.com/user-attachments/assets/a0bfabe3-4509-46b0-852c-d2ae0325ff23" />
+>
+<br>
 
 **Step 156: I opened the Command Prompt as an administrator to enforce new group policy rules.**
 <br>
 <img width="1366" height="768" alt="Step 156  Accessing Comand Line to enforce New Group Policy Rules" src="https://github.com/user-attachments/assets/f7a0f971-bcdb-4583-afcc-bd1f7f4d9a4d" />
+>
+<br>
 
 **Step 157: I verified the command console was ready for my input.**
 <br>
 <img width="1366" height="768" alt="Step 157  Successful launch of Comand Line" src="https://github.com/user-attachments/assets/c20836a1-1e25-4040-bcf9-f4e67b9139a0" />
+>
+<br>
 
 **Step 158: I ran whoami to ensure I was executing commands in the correct domain context Siyolo Admin of Domain Controller.**
 <br>
 <img width="1366" height="768" alt="Step 158  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/94d224dd-b577-486c-983b-a6ed2213bb65" />
-
+>
+<br>
 **Step 159: I initiated the group policy update process by utilizing the command gpupdate /force.**
 <br>
 <img width="1366" height="768" alt="Step 159  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/aecda100-6fce-4689-801a-71364832df4b" />
+>
+<br>
 
 **Step 160: I received the system confirmation that the policy update succeeded.**
 <br>
 <img width="1366" height="768" alt="Step 160  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/9b2cf0a7-adae-4db9-96a7-81b96e321acc" />
+>
+<br>
 
 **Step 161: I utilozed the gpresult command to check the effective policy sets.**
 <br>
 <img width="1366" height="768" alt="Step 161  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/70042e7d-977c-4a4c-a447-f653a7fe9925" />
+>
+<br>
 
 **Step 162: I executed the diagnostic tool to review applied policies.**
 <br>
 <img width="1366" height="768" alt="Step 162  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/5c179e78-3c79-47d7-b5ef-25fc51f940ab" />
+>
+<br>
 
 **Step 163: I reviewed the command output to verify the policy application status.**
 <br>
 <img width="1366" height="768" alt="Step 163  Enforcing New Group Policy Rules on Command Line for mydomain com" src="https://github.com/user-attachments/assets/a5237f98-2a23-43f6-8914-5ae26bd8779b" />
+>
+<br>
 
 **Step 164: I returned to Client-1 to test the new lockout policy using the user "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 164  Attempting to login Kufukos Bukohu with new Group Policy Rules" src="https://github.com/user-attachments/assets/06060a2d-7a73-49ab-9c55-71411f0de40b" />
+>
+<br>
 
 **Step 165: I entered the credentials for the user "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 165  Attempting to login Kufukos Bukohu with new Group Policy Rules" src="https://github.com/user-attachments/assets/c3462369-3097-40f4-9320-ba4613b89df8" />
+>
+<br>
 
 **Step 166: I intentionally provided an incorrect password to trigger the policy.**
 <br>
 <img width="1366" height="768" alt="Step 166  Attempting to login Kufukos Bukohu with new Group Policy Rules" src="https://github.com/user-attachments/assets/8efa67b6-fae4-48ab-82f2-346852223020" />
+>
+<br>
 
 **Step 167: I repeated the incorrect login attempts.**
 <br>
 <img width="1366" height="768" alt="Step 167  Attempting to login Kufukos Bukohu with new Group Policy Rules" src="https://github.com/user-attachments/assets/0f25b1a8-4170-479b-ad03-624855d07229" />
+>
+<br>
 
 **Step 168: I observed the system lock the account due to the repeated failed attempts.**
 <br>
 <img width="1366" height="768" alt="Step 168  Kufukos Bukohu account lock due to new Group Policy Rules" src="https://github.com/user-attachments/assets/5095e80a-937e-421f-8082-664d12d0ead8" />
+>
+<br>
 
 **Step 169: I moved back to the Domain Controller to perform the manual unlock.**
 <br>
 <img width="1366" height="768" alt="Step 169  Back to Domain Controller portal to unlock Kufukos Bukohu&#39;s account" src="https://github.com/user-attachments/assets/199674d3-42c1-408e-93b1-f7bf36a2b4dc" />
+>
+<br>
 
 **Step 170: I opened the ADUC console to manage the locked user "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 170  Accessing Active Directory to unlock Kufukos Bukohu&#39;s account on Domain Controller VM" src="https://github.com/user-attachments/assets/fc9e8409-3a49-4e51-9e92-afb2324c0498" />
+>
+<br>
 
 **Step 171: I located the "Kufukos Bukohu" account in the directory.**
 <br>
 <img width="1366" height="768" alt="Step 171   Locating Kufukos Bukohu&#39;s account on Active Directory on Domain Controller VM" src="https://github.com/user-attachments/assets/2c7564a0-1aa9-4fea-84bb-cf62c9dddc8f" />
+>
+<br>
 
 **Step 172: I accessed the properties of the locked user "Kufukos Bukohu".**
 <br>
@@ -969,139 +1083,206 @@ In this phase, I focused on user administration and the implementation of Group 
 **Step 173: I navigated to the Account tab in the properties window.**
 <br>
 <img width="1366" height="768" alt="Step 173  Unlocking Kufukos Bukohu&#39;s account on Active Directory - Domain Controller" src="https://github.com/user-attachments/assets/9617418d-eabc-4d9d-8d3b-063e85ed6423" />
+>
+<br>
 
 **Step 174: Loocked for a box check to unlock the user account.**
 <br>
 <img width="1366" height="768" alt="Step 174  Unlocking Kufukos Bukohu&#39;s account on Active Directory - Domain Controller" src="https://github.com/user-attachments/assets/223ec085-7283-4d03-a60c-150e8c2c453f" />
+>
+<br>
 
 **Step 175: I applied the changes to release the account lock by ticking the box unlock account for the user "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 175  Unlocking Kufukos Bukohu&#39;s account on Active Directory - Domain Controller" src="https://github.com/user-attachments/assets/608ab888-4734-4af9-9765-636d47b51802" />
+>
+<br>
 
 **Step 176: I returned to the Client-1 VM for a final login test "Kufukos Bukohu" user.**
 <br>
 <img width="1366" height="768" alt="Step 176  Attempting to log in Kufukos Bukohu&#39;s account after unlocking it" src="https://github.com/user-attachments/assets/5a5d4e7a-b1ec-45b3-a1c1-c79247e9aabf" />
+>
+<br>
 
 **Step 177: I entered the password for the now-unlocked account user "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 177  Inputting password to Kufukos Bukohu&#39;s account after unlocking it" src="https://github.com/user-attachments/assets/9b6cb6a2-0214-493a-b96e-8916f30d19ad" />
+>
+<br>
 
 **Step 178: I verified that the user "Kufukos Bukohu" was accessible again.**
 <br>
 <img width="1366" height="768" alt="Step 178  Succesfull login to Kufukos Bukohu&#39;s account" src="https://github.com/user-attachments/assets/3beec862-2fd2-48a5-b360-6241101dc6a3" />
+>
+<br>
 
 **Step 179: I confirmed the successful login to the user desktop "Kufukos Bukohu".**
 <br>
 <img width="1366" height="768" alt="Step 179  Confirming  Kufukos Bukohu&#39;s account" src="https://github.com/user-attachments/assets/0f0c15d9-ed0a-4b24-a0c0-20886adf463d" />
+>
+<br>
 
 **Step 180: I switched back to the Domain Controller to manage further user settings.**
 <br>
 <img width="1366" height="768" alt="Step 180  Back to Domain Controller portal to attempt to change password of a user" src="https://github.com/user-attachments/assets/a4bd9a1f-f652-406c-8261-e97d1600833d" />
+>
+<br>
 
 **Step 181: I launched the ADUC tool to perform a password management task.**
 <br>
 <img width="1366" height="768" alt="Step 181  Accessing ADUC on Domain Controller to attemp to change password of a user" src="https://github.com/user-attachments/assets/66d4955d-b172-4f06-9847-7b49c8423f04" />
+>
+<br>
 
 **Step 182: I navigated to the "Employees/Staff" organizational unit.**
 <br>
 <img width="1366" height="768" alt="Step 182  Openining Employees-Staff OU to select a user account to attempt to change password" src="https://github.com/user-attachments/assets/9163cf04-c0c1-4185-bfd1-081168c3884e" />
+>
+<br>
 
 **Step 183: I selected the "Sadagid Nisud" account from the user list.**
 <br>
 <img width="1366" height="768" alt="Step 183  Selected Sadagid Nisud for password reset in ADUC - Domain Controller" src="https://github.com/user-attachments/assets/ca7b8775-72b3-46f1-9b7c-a64eb110c8d8" />
+>
+<br>
 
 **Step 184: I opened the context menu to select the password reset option.**
 <br>
 <img width="1366" height="768" alt="Step 184  Selected Sadagid Nisud for password reset in ADUC - Domain Controller" src="https://github.com/user-attachments/assets/3808c60f-6ade-4b6d-a663-855b8347108b" />
+>
+<br>
 
 **Step 185: I set a new password for the selected user "Sadagid Nisud".**
 <br>
 <img width="1366" height="768" alt="Step 185  Selected Sadagid Nisud for password reset in ADUC - Domain Controller" src="https://github.com/user-attachments/assets/cdd88e92-1da7-4f7b-a369-83ad8491ba51" />
+>
+<br>
 
 **Step 186: I transitioned to the next administrative task: disabling a user account.**
 <br>
 <img width="1366" height="768" alt="Step 186  Back to Domain Controller portal to disable a user account" src="https://github.com/user-attachments/assets/85fa320f-753e-45cb-8f5c-052bdfa886b8" />
+>
+<br>
 
 **Step 187: I opened the ADUC console to modify account status.**
 <br>
 <img width="1366" height="768" alt="Step 187  Accessing ADUC to disable a user account - Domain Controller" src="https://github.com/user-attachments/assets/5bafbc17-3b09-40da-b356-904591b3832b" />
+>
+<br>
 
 **Step 188: I selected the user "Demoxome Sukud" for the disable operation.**
 <br>
 <img width="1366" height="768" alt="Step 188  Selecting Demoxome Sukud to disable thier account" src="https://github.com/user-attachments/assets/ab7df80d-343c-4205-87d4-90baf67900ef" />
+>
+<br>
 
 **Step 189: I right-clicked the object to reveal management options.**
 <br>
 <img width="1366" height="768" alt="Step 189  Selecting Demoxome Sukud to disable thier account" src="https://github.com/user-attachments/assets/8f034079-75ba-4c6e-8d1b-e95352bb9548" />
+>
+<br>
 
 **Step 190: I triggered the action to disable the account and confirmed the success message.**
 <br>
 <img width="1366" height="768" alt="Step 190  Demoxome Sukud account successfully  disabled" src="https://github.com/user-attachments/assets/ade498f9-6af7-4eef-8c8b-b718dc2f7384" />
+>
+<br>
 
 **Step 191: I tested the restriction by attempting a login with the disabled account "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 191  Attempting to login Demoxome Sukud account after disabling it" src="https://github.com/user-attachments/assets/752cf604-7a55-4dcd-a1eb-a945e441f28a" />
+>
+<br>
 
 **Step 192: I entered the credentials for the disabled user "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 192  Inputting Password Demoxome Sukud account" src="https://github.com/user-attachments/assets/5d768ac5-a0e8-44e3-8461-6b4c8267d010" />
+>
+<br>
 
 **Step 193: I observed the system error message indicating the account was disabled of "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 193  Demoxome Sukud account is disabled" src="https://github.com/user-attachments/assets/7305ca70-095b-48c8-b848-83caa92341b6" />
+>
+<br>
 
 **Step 194: I returned to the Domain Controller to re-enable the account "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 194  Back to Domain Controller portal to enable Demoxome Sukud Account" src="https://github.com/user-attachments/assets/84ae5bcf-b8ab-4c66-aa46-42da63969f20" />
+>
+<br>
 
 **Step 195: I accessed the user account "Demoxome Sukud" within the ADUC console.**
 <br>
 <img width="1366" height="768" alt="Step 195  Accesing ADUC to enable Demoxome Sukud Account" src="https://github.com/user-attachments/assets/f0919019-1811-4c44-9ccd-9109947cf2a5" />
+>
+<br>
 
 **Step 196: I selected the option to enable the user account "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 196  Enabling Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/113fee02-b072-4aee-8919-f57ff50062cd" />
+>
+<br>
 
 **Step 197: I confirmed the change for the "Demoxome Sukud" account.**
 <br>
 <img width="1366" height="768" alt="Step 197  Enabling Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/6d4e25d9-d141-4981-b6a9-24cf7aaeffd7" />
+>
+<br>
 
 **Step 198: I received the system notification that the object was successfully enabled.**
 <br>
 <img width="1366" height="768" alt="Step 198  Demoxome Sukud&#39;s account enabled" src="https://github.com/user-attachments/assets/77ca232e-08ae-40ae-b18d-9530cf6854ba" />
+>
+<br>
 
 **Step 199: I switched to the Client-1 VM to verify the account was active.**
 <br>
 <img width="1366" height="768" alt="Step 199  Attempting to log in Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/ae239e08-2649-42f2-ab08-2b9a549d6971" />
+>
+<br>
 
 **Step 200: I entered the password to log in "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 199  Attempting to log in Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/9be33949-36c4-4bf8-bce5-160e9390798b" />
+>
+<br>
 
 **Step 201: I reached the desktop to confirm access was restored of "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 201  Successful log in Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/ac1df2e0-83f0-49f0-8595-3f1d3518c1d3" />
+>
+<br>
 
 **Step 202: I verified the user profile of the account "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 202  Confirming it is Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/de23e763-962c-46bf-9498-79565d2a919f" />
+>
+<br>
 
 **Step 203: I opened the PowerShell terminal to perform a final confirmation.**
 <br>
 <img width="1366" height="768" alt="Step 203  Accessing Powershell to confirm Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/70131157-8bb5-4a54-9ab9-aace547f33cf" />
+>
+<br>
 
 **Step 204: I typed the whoami command into the terminal.**
 <br>
 <img width="1366" height="768" alt="Step 204  Prompting whoami to confirm Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/638ba4f4-666b-4a29-a91a-e7419baa6600" />
+>
+<br>
 
 **Step 205: I viewed the output confirming the correct user session was active of "Demoxome Sukud".**
 <br>
 <img width="1366" height="768" alt="Step 205  Successful Prompt of whoami command  to confirm Demoxome Sukud&#39;s account" src="https://github.com/user-attachments/assets/eb788999-918c-4998-a3d4-75cfd07fb94d" />
+>
+<br>
 
 **Step 206: I returned to the Domain Controller desktop to conclude the lab.**
 <br>
 
-
+>
+<br>
 
 
 ⸻
@@ -1109,3 +1290,4 @@ In this phase, I focused on user administration and the implementation of Group 
 #🏁Conclusion 
 
 Successfully deployed a fully functional Active Directory environment capable of authenticating users, managing computers, and providing centralized administration similar to what is used in enterprise IT environments.
+
