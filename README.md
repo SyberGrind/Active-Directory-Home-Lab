@@ -1,6 +1,7 @@
 <img width="588" height="330" alt="WhatsApp Image 2026-07-07 at 10 47 58" src="https://github.com/user-attachments/assets/b669e404-dc73-43ee-ac7f-160735db617b" />
 
 # Active Directory Home Lab
+
 📌 Project Overview
 This project demonstrates the deployment and administration of an Active Directory environment using Windows Server in a virtual lab. The objective was to gain practical experience managing a Windows domain, creating user accounts, configuring organizational units (OUs), applying Group Policy, and understanding how Active Directory is used in enterprise environments.
 This lab simulates the responsibilities of an IT Support Technician or Junior System Administrator in a real-world business network.
@@ -19,14 +20,37 @@ This lab simulates the responsibilities of an IT Support Technician or Junior Sy
 ⸻
 
 🛠️ Technologies Used
-* Windows Server 2022 & Windows Pro 11
+* Microsoft Azure
+* Windows Server 2022 
+* Windows 11 Pro
 * DNS
 * Active Directory Domain Services (AD DS)
-* PowerShell 
+* Windows PowerShell
+* Remote Desktop Protocol
+* Group Policy Management 
 
 ⸻
 
-##🔹Phase 1: Foundation – Environment Provisioning & Connectivity.
+🧠 Skills Demonstrated
+* Active Directory Administration
+* Windows Server Administration
+* Azure Infrastructure Deployment
+* DNS Configuration
+* Organizational Unit (OU) Management
+* User & Group Administration
+* Domain Controller Promotion
+* Group Policy Configuration
+* PowerShell Automation
+* Windows Authentication
+* Domain Join Operations
+* Remote Desktop Configuration
+* Account Lockout Management
+* Password Reset & User Recovery
+* Identity & Access Management
+* IT Troubleshooting
+
+⸻
+##🔹Phase 1: Azure infrastructure Deployment & Network Configuration.
 
 I established the core infrastructure for the lab environment within the Microsoft Azure ecosystem. My primary objective was to create a logically isolated network environment and deploy two virtual machines: a Windows Server 2022 virtual machine acting as the Domain Controller and a Windows 11 Pro virtual machine functioning as a Client workstation. I performed key configurations by optimizing security settings on the Domain Controller through altered firewall profiles and established internal network connectivity by configuring the Client workstation to use the Domain Controller's private IP as its DNS server, ensuring readiness for Active Directory domain services creation.
 
@@ -354,7 +378,7 @@ I established the core infrastructure for the lab environment within the Microso
 ⸻
 <br>
 
-##🔹Phase 2: Active Directory Domain Services Configuration.
+##🔹Phase 2: Active Directory Domain  Deployment & Domain Administration Services.
 
 In this phase, I configured the Domain Controller and established a formal domain infrastructure within my Azure environment. My primary objective was to deploy and promote the Active Directory Domain Services Configuration role to create a new forest named mydomain.com. Following the domain promotion, I implemented organizational security and administration by creating custom organizational units (Employees/Staff and Admins) and provisioning an administrative user, Siyolo_Admin, with delegated domain administrative privileges. Finally, I successfully joined the Client-1 VM to the mydomain.com domain, confirming full connectivity and integration within the domain environment.
 >
@@ -687,7 +711,7 @@ In this phase, I configured the Domain Controller and established a formal domai
 <br>
 ⸻
 
-##🔹 Phase 3: Client User Management & Group Policy Configuration.
+##🔹 Phase 3: Client User Management, Group Policy & Security Management.
 
 In this phase, I focused on user administration and the implementation of Group Policy Objects (GPOs) to control environment security. My activities included enabling Remote Desktop access for users on the Client-1 VM, automating the bulk creation of user accounts using a PowerShell script, and enforcing security policies—specifically account lockout thresholds—via Group Policy Management. I validated these configurations by testing user access, account lockout behaviors, and administrative user account management tasks, including account enabling/disabling and password resets
 >
@@ -1212,10 +1236,13 @@ In this phase, I focused on user administration and the implementation of Group 
 >
 <br>
 
-
 ⸻
 
-#🏁Conclusion 
+#🌍 Real World Relevance
 
-Successfully deployed a fully functional Active Directory environment capable of authenticating users, managing computers, and providing centralized administration similar to what is used in enterprise IT environments.
+This lab mirrors the responsibilities of an IT Support Technician or Junior Systems Administrator working in a Windows enterprise environment. The tasks performed including deploying a Domain Controller, managing Active Directory objects, configuring Group Policy, provisioning user accounts, and troubleshooting authentication issues are common responsibilities in corporate IT department
+
+#🏁 Conclusion 
+
+This project successfully demonstrated the deployment and administration of an Active Directory environment using Microsoft Azure and Windows Server 2022. Beginning with a cloud-based infrastructure, I provisioned virtual machines, configured networking and DNS, promoted a server to a Domain Controller, created a new Active Directory forest, and joined a Windows 11 client to the domain. I then managed Organizational Units (OUs), created administrative and standard user accounts, automated user provisioning with PowerShell, configured Group Policy Objects (GPOs), enabled Remote Desktop access, and performed common administrative tasks such as password resets, account lockouts, and enabling or disabling user accounts. Throughout the project, I validated each configuration through practical testing to ensure authentication, authorization, and policy enforcement functioned correctly. Completing this lab strengthened my understanding of enterprise Windows environments and provided valuable hands-on experience with the core technologies, troubleshooting techniques, and administrative responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, and Junior Systems Administrators in real-world organizations.
 
