@@ -3,6 +3,7 @@
 # Active Directory Home Lab
 
 📌 Project Overview
+
 This project demonstrates the deployment and administration of an Active Directory environment using Windows Server in a virtual lab. The objective was to gain practical experience managing a Windows domain, creating user accounts, configuring organizational units (OUs), applying Group Policy, and understanding how Active Directory is used in enterprise environments.
 This lab simulates the responsibilities of an IT Support Technician or Junior System Administrator in a real-world business network.
 
