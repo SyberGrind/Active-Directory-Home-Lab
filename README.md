@@ -29,9 +29,10 @@ This lab simulates the responsibilities of an IT Support Technician or Junior Sy
 ##🔹Phase 1: Foundation – Environment Provisioning & Connectivity.
 
 I established the core infrastructure for the lab environment within the Microsoft Azure ecosystem. My primary objective was to create a logically isolated network environment and deploy two virtual machines: a Windows Server 2022 virtual machine acting as the Domain Controller and a Windows 11 Pro virtual machine functioning as a Client workstation. I performed key configurations by optimizing security settings on the Domain Controller through altered firewall profiles and established internal network connectivity by configuring the Client workstation to use the Domain Controller's private IP as its DNS server, ensuring readiness for Active Directory domain services creation.
+
+⸻
 >
 <br>
-⸻
 
 **Step 1: I opened the Resource Manager in the Azure Portal to view my existing resource groups.**
 <br>
@@ -363,230 +364,361 @@ In this phase, I configured the Domain Controller and established a formal domai
 **Step 54: I logged into the Domain-Controller virtual machine.**
 <br>
 <img width="1366" height="768" alt="Step 54  Logging in to Domain Controller VM again" src="https://github.com/user-attachments/assets/6d3b242b-adda-4352-b3c3-0ecc74b8307e" />
+>
+<br>
 
 **Step 55: I input my password to authenticate the session.**
 <br>
 <img width="1366" height="768" alt="Step 55  Inputting password for Domain Controller" src="https://github.com/user-attachments/assets/7d4d8f0b-c1d6-4048-af3c-25ecce1b7f9d" />
+>
+<br>
 
 **Step 56: I confirmed the successful launch of the Domain-Controller virtual machine.**
 <br>
 <img width="1366" height="768" alt="Step 56  Succesfull launch of Domain Controller VM" src="https://github.com/user-attachments/assets/85241414-f962-4114-990d-bb1bd382e46b" />
+>
+<br>
 
 **Step 57: I opened the Server Manager to begin the process of setting up Active Directory.**
 <br>
 <img width="1366" height="768" alt="Step 57  Prompt of Server Manager to set up Active Directory" src="https://github.com/user-attachments/assets/e17b6ee5-206c-43ed-a724-4ce5be37333e" />
+>
+<br>
 
 **Step 58: I verified the successful launch of Server Manager.**
 <br>
 <img width="1366" height="768" alt="Step 58  Successful launch of Server Manager on Domain Controller" src="https://github.com/user-attachments/assets/10154a93-2d9e-401f-8903-5a0f68c3f73f" />
+>
+<br>
 
 **Step 59: I initiated the Add Roles & Features wizard within Server Manager.**
 <br>
 <img width="1366" height="768" alt="Step 59  Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/b17f9790-9971-4a67-84be-5bd1f333f73c" />
+>
+<br>
 
 **Step 60: I navigated through the initial screens of the Add Roles & Features wizard.**
 <br>
 <img width="1366" height="768" alt="Step 60   Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/451a2b76-bd08-4421-a9d7-d69ddec49381" />
+>
+<br>
 
 **Step 61: I continued the setup process for the server roles.**
 <br>
 <img width="1366" height="768" alt="Step 61   Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/74229cda-b0c2-4670-9876-a3a1ae93628d" />
+>
+<br>
 
 **Step 62: I continued the setup process for the server roles.**
 <br>
 <img width="1366" height="768" alt="Step 62   Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/be5c75c5-9720-41c4-8594-0cede5d78658" />
+>
+<br>
 
 **Step 63: I selected Active Directory Domain Services as the required role.**
 <br>
 <img width="1366" height="768" alt="Step 63  Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/84bccf2a-eeaf-450e-a3cd-c968b5a63970" />
+>
+<br>
 
 **Step 64: I confirmed the inclusion of required management tools for Active Directory Services.**
 <br>
 <img width="1366" height="768" alt="Step 64  Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/04d26928-3f72-4074-86da-2d4c1f8d5b43" />
+>
+<br>
 
 **Step 65: I verified the successful completion of the Add Roles & Features installation.**
 <br>
 <img width="1366" height="768" alt="Step 65   Successful Active Directory Setup - Add Roles   Features" src="https://github.com/user-attachments/assets/fa4e181d-f846-4e78-97f6-9704c9259715" />
+>
+<br>
 
 **Step 66: I proceeded to the Active Directory Configuration stage to promote the server.**
 <br>
 <img width="1366" height="768" alt="Step 66  Active Diretory Configuration   Installation" src="https://github.com/user-attachments/assets/1ca2d645-b557-484d-b54d-5c0ccc96b21b" />
+>
+<br>
 
 **Step 67: I selected the option to Add a new forest for the deployment.**
 <br>
 <img width="1366" height="768" alt="Step 67  Active Diretory Configuration   Installation Adding New Forest" src="https://github.com/user-attachments/assets/395b83ac-c87c-43eb-bbce-aa26e97b604d" />
+>
+<br>
 
 **Step 68: I specified the forest root domain name as mydomain.com.**
 <br>
 <img width="1366" height="768" alt="Step 68  Active Diretory Configuration   Installation -  Forest name mydomain com" src="https://github.com/user-attachments/assets/d836449c-cf6e-4c82-88b7-cbf25e1fc594" />
+>
+<br>
 
 **Step 69: I allowed the wizard to perform the Prerequisites check.**
 <br>
 <img width="1366" height="768" alt="Step 69  Active Diretory Configuration   Installation - Preresiquisites check" src="https://github.com/user-attachments/assets/c3c04e11-c8de-48a1-819e-c5b1ebc62cd1" />
+>
+<br>
 
 **Step 70: I proceeded with the installation, which triggered a mandatory reboot of the Domain-Controller.**
 <br>
 <img width="1366" height="768" alt="Step 70  Active Diretory Configuration   Installation cauing reboot of Domain Controller" src="https://github.com/user-attachments/assets/1c0ace0d-e6c4-44ea-b95b-f1bfbe1e09f7" />
+>
+<br>
 
 **Step 71: I logged into the Domain-Controller using the new domain credentials (mydomain.com\Domain Controller).**
 <br>
 <img width="1366" height="768" alt="Step 71  Log in to Domain Controller with new name mydomain com Domain Controller" src="https://github.com/user-attachments/assets/f66eb50c-6915-4f01-8c7d-fd949b0c795c" />
+>
+<br>
 
 **Step 72: I confirmed a successful login after the Active Directory installation.**
 <br>
 <img width="1366" height="768" alt="Step 72  Successful login to Domain Controller after setup, configuration   installation of Active Directory" src="https://github.com/user-attachments/assets/9a5239bb-a4df-4dde-8349-bbe2772d82a3" />
+>
+<br>
 
 **Step 73: I launched Server Manager to confirm the new role status.**
 <br>
 <img width="1366" height="768" alt="Step 73  Prompt to Launch Server Manager" src="https://github.com/user-attachments/assets/ac1e7a7e-c3b2-419d-bbac-9c9184df2b38" />
+>
+<br>
 
 **Step 74: I confirmed the successful launch of Server Manager.**
 <br>
 <img width="1366" height="768" alt="Step 74  Successful Launch of Server Manager" src="https://github.com/user-attachments/assets/10b0da62-597c-4b6f-8d54-7c0170a13a59" />
+>
+<br>
 
 **Step 75: I accessed the Active Directory Users and Computers (ADUC) tool via the Tools menu.**
 <br>
 <img width="1366" height="768" alt="Step 75  Accessing ADUC on Server Manager" src="https://github.com/user-attachments/assets/2eb2c360-3eb0-4502-bdd3-7aabc8d3c629" />
+>
+<br>
 
 **Step 76: I verified the successful launch of Active Directory Users & Computers.**
 <br>
 <img width="1366" height="768" alt="Step 76  Succesful Launch of ADUC" src="https://github.com/user-attachments/assets/bfe73e05-066f-44b7-8a2e-7b3cad533b1e" />
+>
+<br>
 
 **Step 77: I prepared to add a new organizational unit (OU) in ADUC.**
 <br>
 <img width="1366" height="768" alt="Step 77  Adding an organisational unit in ADUC" src="https://github.com/user-attachments/assets/9f571465-1bb0-46ef-b66d-64bdc388f167" />
+>
+<br>
 
 **Step 78: I created an OU named Employees/Staff.**
 <br>
 <img width="1366" height="768" alt="Step 78  Adding an organisational unit in ADUC - Employees Staff" src="https://github.com/user-attachments/assets/4f39f770-9564-46d5-a470-cb503e501270" />
+>
+<br>
 
 **Step 79: I created a second OU named Admins.**
 <br>
 <img width="1366" height="768" alt="Step 79  Adding an organisational unit in ADUC - Admins" src="https://github.com/user-attachments/assets/d031f823-8802-4a07-8794-3475562b95ed" />
+>
+<br>
 
 **Step 80: I initiated the creation of a new user Siyolo Kamisa/Siyolo_Admin within the Admins OU.**
 <br>
 <img width="1366" height="768" alt="Step 80  Creating a new user in ADUC within Admins" src="https://github.com/user-attachments/assets/c6507690-8d95-46cb-b8d1-cf2005ca7dcc" />
+>
+<br>
 
 **Step 81: I entered the new user details for Siyolo_Admin.**
 <br>
 <img width="1366" height="768" alt="Step 81  Creating a new user in ADUC within Admins - Siyolo _ Admin" src="https://github.com/user-attachments/assets/17c92cda-e079-4503-9265-ffebf3bbe564" />
+>
+<br>
 
 **Step 82: Siyolo_Admin account details ie password.**
 <br>
 <img width="1128" height="1600" alt="Step 82  Siyolo Admin details for ADUC Admins" src="https://github.com/user-attachments/assets/2117d2c5-19cc-4bbe-9059-5e9159e4922a" />
+>
+<br>
 
 **Step 83: I created a secure password for the Siyolo_Admin account.**
 <br>
 <img width="1366" height="768" alt="Step 83  Creating password for Siyolo Kamisa admin" src="https://github.com/user-attachments/assets/a5535c0e-32fc-427c-a71f-409e99dcf8eb" />
+>
+<br>
 
 **Step 84: I confirmed the successful creation of the Siyolo_Admin user.**
 <br>
 <img width="1366" height="768" alt="Step 84  Succesfully Created new admin Siyolo Kamisa for ADUC" src="https://github.com/user-attachments/assets/75a58624-0820-4fc5-bd84-93d76db0ad94" />
+>
+<br>
 
 **Step 85: I accessed the Properties window for Siyolo_Admin to modify account permissions.**
 <br>
 <img width="1366" height="768" alt="Step 85  Alerting properties of Siyolo Kamisa for admin powers" src="https://github.com/user-attachments/assets/3df008ab-5430-4bf6-9eae-e8917a70d5c0" />
+>
+<br>
 
 **Step 86: I navigated to the Member Of tab to manage group memberships for Siyolo_Admin.**
 <br>
 <img width="1366" height="768" alt="Step 86  Alerting properties of Siyolo Kamisa for admin powers - member of" src="https://github.com/user-attachments/assets/393525e2-4d9e-4f6b-ab37-4e22b360ab4f" />
+>
+<br>
 
 **Step 87: I verified the initial Domain Users membership.**
 <br>
 <img width="1366" height="768" alt="Step 87  Alerting properties of Siyolo Kamisa for admin powers - member of Domain Users" src="https://github.com/user-attachments/assets/d08d1b99-4d6a-4b6d-8b75-5922ed78269c" />
+>
+<br>
 
 **Step 88: I added Domain Admins to the member list for Siyolo_Admin.**
 <br>
 <img width="1366" height="768" alt="Step 88  Alerting properties of Siyolo Kamisa for admin powers - member of Domain Users   Domain Admins" src="https://github.com/user-attachments/assets/a90edb94-cce8-4730-858e-22049f4d4e99" />
+>
+<br>
 
 **Step 89: I confirmed the successful update of the user's account properties for Siyolo_Admin - added to domain admin & domain users.**
 <br>
 <img width="1366" height="768" alt="Step 89  Successful change of Siyolo Kamisa properties" src="https://github.com/user-attachments/assets/1bb54388-651a-49e3-921b-226bb032ffaf" />
+>
+<br>
 
 **Step 90: I logged into the Domain-Controller using the new credentials Siyolo_Admin.**
 <br>
 <img width="1366" height="768" alt="Step 90  Logging into Siylo Kamisa as Domain Controller Admin" src="https://github.com/user-attachments/assets/73251bbc-1c58-4412-8b06-d9dab56d7d8c" />
+>
+<br>
 
 **Step 91: I input the password for Siyolo_Admin.**
 <br>
 <img width="1366" height="768" alt="Step 91  Inputting Password for Siyolo Kamisa - Domain Controller" src="https://github.com/user-attachments/assets/3f96a55b-3bab-455c-b7f0-37a9dfb22546" />
+>
+<br>
 
 **Step 92: I confirmed a successful login as the new domain administrator.**
 <br>
 <img width="1366" height="768" alt="Step 92  Succesfull login to Siyolo Kamisa Domain Controller" src="https://github.com/user-attachments/assets/86f0ac3b-f128-4164-9519-5006cf35bf77" />
+>
+<br>
 
 **Step 93: I logged into the Client-1 virtual machine.**
 <br>
 <img width="1366" height="768" alt="Step 93  Logging in to Client-1 VM" src="https://github.com/user-attachments/assets/67a07304-c7aa-4830-bf7f-815872932e85" />
+>
+<br>
 
 **Step 94: I input my password to access the Client-1 desktop.**
 <br>
 <img width="1366" height="768" alt="Step 94  Inputting Password for Client - 1 VM" src="https://github.com/user-attachments/assets/ecb909b2-99ca-4206-af93-df336fb348b3" />
+>
+<br>
 
 **Step 95: I confirmed a successful login to Client-1.**
 <br>
 <img width="1366" height="768" alt="Step 95  Successfully log into Client - 1 VM" src="https://github.com/user-attachments/assets/ad8af516-c43e-4292-8fcb-491394b2cfe6" />
+>
+<br>
 
 **Step 96: I navigated to the system settings to join the Client-1 machine to the domain.**
 <br>
 <img width="1366" height="768" alt="Step 96  Adding Client - 1 VM to mydomain com domain" src="https://github.com/user-attachments/assets/14b3aafb-777f-4e41-8fc2-76d2219710d6" />
+>
+<br>
 
 **Step 97: I prepared to change the domain membership of the machine.**
 <br>
 <img width="1366" height="768" alt="Step 97  Adding Client - 1 VM to mydomain com domain" src="https://github.com/user-attachments/assets/a4474788-62ac-40d4-ae81-56b9c3059990" />
+>
+<br>
 
 **Step 98: I entered mydomain.com as the target domain.**
 <br>
 <img width="1366" height="768" alt="Step 98  Adding Client - 1 VM to mydomain com domain" src="https://github.com/user-attachments/assets/aafa3663-25f7-4426-b1e7-0c54e5a06bf4" />
+>
+<br>
 
 **Step 99: I confirmed the domain change request.**
 <br>
-
-
-
+<img width="1366" height="768" alt="Step 99  Adding Client - 1 VM to mydomain com domaincasasc" src="https://github.com/user-attachments/assets/8c9ee92c-656b-4985-831e-9456105d5461" />
+>
+<br>
 
 **Step 100: I entered the administrative credentials for Siyolo_Admin to authorize joining the domain.**
+<br>
+<img width="1366" height="768" alt="Step 100  Adding Client - 1 VM to mydomain com domainscss" src="https://github.com/user-attachments/assets/69897216-24ca-492a-aea8-d2a2a531a6e7" />
+>
 <br>
 
 **Step 101: I authorized the domain join with the Siyolo_Admin password.**
 <br>
+<img width="1366" height="768" alt="Step 101  Adding Client - 1 VM to mydomain com domaincscsasac" src="https://github.com/user-attachments/assets/c12f1652-b4f3-42a8-8a83-87e4e545793a" />
+>
+<br>
 
 **Step 102: I received the confirmation that Client-1 had successfully joined the mydomain.com domain.**
+<br>
+<img width="1366" height="768" alt="Step 102  Successfully added Client - 1 to mydomain com domain" src="https://github.com/user-attachments/assets/18017ce4-3d21-4570-87be-1662b859ec14" />
+>
 <br>
 
 **Step 103: I acknowledged the system prompt to restart Client-1 to apply the domain changes.**
 <br>
+<img width="1366" height="768" alt="Step 103  Restart of Client - 1 VM to apply changes" src="https://github.com/user-attachments/assets/2f3430ce-5402-4c8c-82ae-fe94d16ef5c8" />
+>
+<br>
 
 **Step 104: I initiated the login process for Client-1 after the restart.**
+<br>
+<img width="1366" height="768" alt="Step 104  Logging in Client 1 VM" src="https://github.com/user-attachments/assets/a31a83e1-1caf-4b32-bcaa-0d295549e0bc" />
+>
 <br>
 
 **Step 105: I entered the credentials to log back into Client-1.**
 <br>
+<img width="1366" height="768" alt="Step 105  Inputting password to log in  Client - 1 VM" src="https://github.com/user-attachments/assets/4fbf35a8-9178-48ce-9c64-ad53e754debd" />
+>
+<br>
 
 **Step 106: I confirmed a successful login to the Client-1 desktop within the domain.**
+<br>
+<img width="1366" height="768" alt="Step 106  Successfull log in to Client - 1 VM" src="https://github.com/user-attachments/assets/f7502288-516c-4486-83a0-75cac632aa42" />
+>
 <br>
 
 **Step 107: I verified that Client-1 had correctly joined the mydomain.com domain via the System settings.**
 <br>
+<img width="1366" height="768" alt="Step 107  Validating Client - 1 has joined mydomain com domain" src="https://github.com/user-attachments/assets/4443c22a-7bf6-42d4-849c-3273e6418610" />
+>
+<br>
 
 **Step 108: I logged back into the Domain-Controller using my administrative credentials.**
+<br>
+<img width="1366" height="768" alt="Step 108  Logging in to Domain Controller with admin credentials" src="https://github.com/user-attachments/assets/bb94cf3b-d474-44a5-8d87-5a54119994dd" />
+>
 <br>
 
 **Step 109: I input the password for the Domain-Controller.**
 <br>
+<img width="1366" height="768" alt="Step 109  Inputting password for Domain Controller" src="https://github.com/user-attachments/assets/4c304612-3632-4815-ac80-0cf4ac737fe2" />
+>
+<br>
 
 **Step 110: I confirmed a successful login to the Domain-Controller.**
+<br>
+<img width="1366" height="768" alt="Step 110  Succesfull login to Domain Controller" src="https://github.com/user-attachments/assets/6184bd18-8884-4292-9d3f-d84f53e9cf99" />
+>
 <br>
 
 **Step 111: I launched Active Directory Users and Computers to check the domain status.**
 <br>
+<img width="1366" height="768" alt="Step 111  Launching Active Directory" src="https://github.com/user-attachments/assets/de2ff9f8-0820-4cd7-9305-9d01b4bb1991" />
+>
+<br>
 
 **Step 112: I verified the successful launch of the Active Directory management console.**
+<br>
+<img width="1366" height="768" alt="Step 112  Successful launch of Active Directory" src="https://github.com/user-attachments/assets/8a55dca5-8303-49f8-98b4-eeee4c87ca30" />
+>
 <br>
 
 **Step 113: I navigated to the Computers container to validate that Client-1 was now correctly registered as part of the mydomain.com domain.**
 <br>
+<img width="1366" height="768" alt="Step 113  Validating Client - 1 is part of mydomain com on Domain Controller" src="https://github.com/user-attachments/assets/31043e6b-820e-49e1-ad0e-a7bc03f91a30" />
+
 >
 <br>
 ⸻
