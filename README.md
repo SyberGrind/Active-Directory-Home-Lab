@@ -51,6 +51,7 @@ This lab simulates the responsibilities of an IT Support Technician or Junior Sy
 * IT Troubleshooting
 
 ⸻
+
 ##🔹Phase 1: Azure infrastructure Deployment & Network Configuration.
 
 I established the core infrastructure for the lab environment within the Microsoft Azure ecosystem. My primary objective was to create a logically isolated network environment and deploy two virtual machines: a Windows Server 2022 virtual machine acting as the Domain Controller and a Windows 11 Pro virtual machine functioning as a Client workstation. I performed key configurations by optimizing security settings on the Domain Controller through altered firewall profiles and established internal network connectivity by configuring the Client workstation to use the Domain Controller's private IP as its DNS server, ensuring readiness for Active Directory domain services creation.
