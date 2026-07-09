@@ -4,9 +4,46 @@
 
 📌 Project Overview
 
-This project demonstrates the deployment and administration of an Active Directory environment using Windows Server in a virtual lab. The objective was to gain practical experience managing a Windows domain, creating user accounts, configuring organizational units (OUs), applying Group Policy, and understanding how Active Directory is used in enterprise environments.
-This lab simulates the responsibilities of an IT Support Technician or Junior System Administrator in a real-world business network.
+This project demonstrates the deployment and administration of an Active Directory environment using Windows Server in a virtual lab. The objective was to gain practical experience managing a Windows domain, creating user accounts, configuring organizational units (OUs), applying Group Policy, and understanding how Active Directory is used in enterprise environments. This lab simulates the responsibilities of an IT Support Technician or Junior System Administrator in a real-world business network.
 
+⸻
+
+📊 Project Summary
+
+| Category | Details |
+|----------|---------|
+| **Project** | Active Directory Home Lab |
+| **Platform** | Microsoft Azure |
+| **Domain** | mydomain.com |
+| **Domain Controller** | Windows Server 2022 |
+| **Client Machine** | Windows 11 Pro |
+| **Core Services** | Active Directory Domain Services (AD DS), DNS, Group Policy |
+| **Administrative Tools** | Active Directory Users and Computers (ADUC), Group Policy Management, Windows PowerShell, Remote Desktop |
+| **Key Tasks Completed** | Azure infrastructure deployment, Domain Controller promotion, Domain creation, DNS configuration, OU management, User administration, Domain join, Group Policy configuration, PowerShell automation, Account lifecycle management |
+| **Screenshots** | 196 |
+| **Project Status** | ✅ Completed |
+
+⸻
+
+🏗️🏢 Architecture
+
+```text
+Azure
+│
+├── Resource Group (ADLab)
+│
+├── Virtual Network (ADVNET)
+│
+├── Domain Controller
+│   ├── Windows Server 2022
+│   ├── Active Directory
+│   ├── DNS
+│   └── Group Policy
+│
+└── Client-1
+    ├── Windows 11 Pro
+    └── Joined to mydomain.com
+```
 ⸻
 
 🎯 Objectives
@@ -17,6 +54,7 @@ This lab simulates the responsibilities of an IT Support Technician or Junior Sy
 * Configure Organizational Units (OUs)
 * Create and manage users
 * Explore Group Policy management
+* Validate domain authentication and policy enforcement
 
 ⸻
 
@@ -24,11 +62,12 @@ This lab simulates the responsibilities of an IT Support Technician or Junior Sy
 * Microsoft Azure
 * Windows Server 2022 
 * Windows 11 Pro
-* DNS
 * Active Directory Domain Services (AD DS)
+* DNS
+* Group Policy Management
 * Windows PowerShell
-* Remote Desktop Protocol
-* Group Policy Management 
+* Remote Desktop Protocol (RDP)
+
 
 ⸻
 
@@ -380,11 +419,12 @@ I established the core infrastructure for the lab environment within the Microso
 ⸻
 <br>
 
-##🔹Phase 2: Active Directory Domain  Deployment & Domain Administration Services.
+##🔹Phase 2: Active Directory Domain  Deployment & Domain Administration.
 
 In this phase, I configured the Domain Controller and established a formal domain infrastructure within my Azure environment. My primary objective was to deploy and promote the Active Directory Domain Services Configuration role to create a new forest named mydomain.com. Following the domain promotion, I implemented organizational security and administration by creating custom organizational units (Employees/Staff and Admins) and provisioning an administrative user, Siyolo_Admin, with delegated domain administrative privileges. Finally, I successfully joined the Client-1 VM to the mydomain.com domain, confirming full connectivity and integration within the domain environment.
 >
 <br>
+
 ⸻
 
 **Step 54: I went back to my Domain Controller virtual machine to set up Active Directory.**
@@ -1242,9 +1282,9 @@ In this phase, I focused on user administration and the implementation of Group 
 
 #🌍 Real World Relevance.
 
-This lab mirrors the responsibilities of an IT Support Technician or Junior Systems Administrator working in a Windows enterprise environment. The tasks performed including deploying a Domain Controller, managing Active Directory objects, configuring Group Policy, provisioning user accounts, and troubleshooting authentication issues are common responsibilities in corporate IT department
+This lab mirrors the responsibilities of an IT Support Technician or Junior Systems Administrator working in a Windows enterprise environment. The tasks performed including deploying a Domain Controller, managing Active Directory objects, configuring Group Policy, provisioning user accounts, and troubleshooting authentication issues are common responsibilities in corporate IT department. Completing this project demonstrates practical experience with enterprise identity management, user administration, and Windows Server technologies commonly used in production environments.
 
 #🏁 Conclusion. 
 
-This project successfully demonstrated the deployment and administration of an Active Directory environment using Microsoft Azure and Windows Server 2022. Beginning with a cloud-based infrastructure, I provisioned virtual machines, configured networking and DNS, promoted a server to a Domain Controller, created a new Active Directory forest, and joined a Windows 11 client to the domain. I then managed Organizational Units (OUs), created administrative and standard user accounts, automated user provisioning with PowerShell, configured Group Policy Objects (GPOs), enabled Remote Desktop access, and performed common administrative tasks such as password resets, account lockouts, and enabling or disabling user accounts. Throughout the project, I validated each configuration through practical testing to ensure authentication, authorization, and policy enforcement functioned correctly. Completing this lab strengthened my understanding of enterprise Windows environments and provided valuable hands-on experience with the core technologies, troubleshooting techniques, and administrative responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, and Junior Systems Administrators in real-world organizations.
+This project successfully demonstrated the deployment and administration of an Active Directory environment using Microsoft Azure and Windows Server 2022. Starting from a cloud-based infrastructure, I provisioned virtual machines, configured networking and DNS, promoted a server to a Domain Controller, created a new Active Directory forest, and joined a Windows 11 client to the domain. I then managed Organizational Units (OUs), created administrative and standard user accounts, automated user provisioning with PowerShell, configured Group Policy Objects (GPOs), enabled Remote Desktop access, and performed common administrative tasks such as password resets, account lockouts, and enabling or disabling user accounts. Throughout the project, I validated each configuration through practical testing to ensure authentication, authorization, and policy enforcement functioned correctly. Completing this lab strengthened my understanding of enterprise Windows environments and provided valuable hands-on experience with the core technologies, troubleshooting techniques, and administrative responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, and Junior Systems Administrators in real-world organizations.
 
