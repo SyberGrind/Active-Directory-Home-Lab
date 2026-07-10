@@ -47,6 +47,7 @@ Azure
 ⸻
 
 🎯 Objectives
+
 * Install and configure Active Directory Domain Services (AD DS)
 * Promote a Windows Server to a Domain Controller
 * Create a new Active Directory domain
@@ -59,6 +60,7 @@ Azure
 ⸻
 
 🛠️ Technologies Used
+
 * Microsoft Azure
 * Windows Server 2022 
 * Windows 11 Pro
@@ -72,6 +74,7 @@ Azure
 ⸻
 
 🧠 Skills Demonstrated
+
 * Active Directory Administration
 * Windows Server Administration
 * Azure Infrastructure Deployment
