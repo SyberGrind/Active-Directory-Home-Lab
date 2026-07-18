@@ -1280,11 +1280,11 @@ In this phase, I focused on user administration and the implementation of Group 
 
 ⸻
 
-#🌍 Real World Relevance.
+🌍 Real World Relevance.
 
 This lab mirrors the responsibilities of an IT Support Technician or Junior Systems Administrator working in a Windows enterprise environment. The tasks performed including deploying a Domain Controller, managing Active Directory objects, configuring Group Policy, provisioning user accounts, and troubleshooting authentication issues are common responsibilities in corporate IT department. Completing this project demonstrates practical experience with enterprise identity management, user administration, and Windows Server technologies commonly used in production environments.
 
-#🏁 Conclusion. 
+🏁 Conclusion. 
 
 This project successfully demonstrated the deployment and administration of an Active Directory environment using Microsoft Azure and Windows Server 2022. Starting from a cloud-based infrastructure, I provisioned virtual machines, configured networking and DNS, promoted a server to a Domain Controller, created a new Active Directory forest, and joined a Windows 11 client to the domain. I then managed Organizational Units (OUs), created administrative and standard user accounts, automated user provisioning with PowerShell, configured Group Policy Objects (GPOs), enabled Remote Desktop access, and performed common administrative tasks such as password resets, account lockouts, and enabling or disabling user accounts. Throughout the project, I validated each configuration through practical testing to ensure authentication, authorization, and policy enforcement functioned correctly. Completing this lab strengthened my understanding of enterprise Windows environments and provided valuable hands-on experience with the core technologies, troubleshooting techniques, and administrative responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, and Junior Systems Administrators in real-world organizations.
 
