@@ -25,7 +25,7 @@ This project demonstrates the deployment and administration of an Active Directo
 
 ⸻
 
-🏗️🏢 Architecture
+🏗️🏢 Lab Architecture
 
 ```text
 Azure
