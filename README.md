@@ -94,8 +94,7 @@ Azure
 
 ⸻
 
-##🔹Phase 1: Azure infrastructure Deployment & Network Configuration.
-
+## 🔹 Phase 1: Azure infrastructure Deployment & Network Configuration.
 I established the core infrastructure for the lab environment within the Microsoft Azure ecosystem. My primary objective was to create a logically isolated network environment and deploy two virtual machines: a Windows Server 2022 virtual machine acting as the Domain Controller and a Windows 11 Pro virtual machine functioning as a Client workstation. I performed key configurations by optimizing security settings on the Domain Controller through altered firewall profiles and established internal network connectivity by configuring the Client workstation to use the Domain Controller's private IP as its DNS server, ensuring readiness for Active Directory domain services creation.
 
 ⸻
@@ -422,8 +421,7 @@ I established the core infrastructure for the lab environment within the Microso
 ⸻
 <br>
 
-##🔹Phase 2: Active Directory Domain  Deployment & Domain Administration.
-
+## 🔹 Phase 2: Active Directory Domain  Deployment & Domain Administration.
 In this phase, I configured the Domain Controller and established a formal domain infrastructure within my Azure environment. My primary objective was to deploy and promote the Active Directory Domain Services Configuration role to create a new forest named mydomain.com. Following the domain promotion, I implemented organizational security and administration by creating custom organizational units (Employees/Staff and Admins) and provisioning an administrative user, Siyolo_Admin, with delegated domain administrative privileges. Finally, I successfully joined the Client-1 VM to the mydomain.com domain, confirming full connectivity and integration within the domain environment.
 >
 <br>
@@ -756,8 +754,7 @@ In this phase, I configured the Domain Controller and established a formal domai
 <br>
 ⸻
 
-##🔹 Phase 3: Client User Management, Group Policy & Security Management.
-
+## 🔹 Phase 3: Client User Management, Group Policy & Security Management.
 In this phase, I focused on user administration and the implementation of Group Policy Objects (GPOs) to control environment security. My activities included enabling Remote Desktop access for users on the Client-1 VM, automating the bulk creation of user accounts using a PowerShell script, and enforcing security policies—specifically account lockout thresholds—via Group Policy Management. I validated these configurations by testing user access, account lockout behaviors, and administrative user account management tasks, including account enabling/disabling and password resets
 >
 <br>
